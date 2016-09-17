@@ -1,0 +1,305 @@
+        /*導覽列*/
+        
+        @media screen and (max-width: 767px) {
+            nav {
+                height: auto;
+                width: 100%;
+                background-color: rgba(12, 51, 136, 0.8);
+                font-size: 1.5vh;
+                color: white;
+            }
+            nav ul {
+                width: 100%;
+                display: block;
+                height: auto;
+                list-style-type: none;
+            }
+            nav li {
+                width: 50%;
+                float: left;
+                margin: 1vh 0;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            nav {
+                width: 100%;
+                height: 7%;
+                background-color: rgba(12, 51, 136, 0.8);
+                font-size: 1.5vh;
+                color: white;
+            }
+            nav ul {
+                padding: 0;
+                margin: 0 auto;
+                width: 100%;
+                list-style-type: none;
+            }
+            nav li {
+                display: inline;
+                float: left;
+                margin: 2vh;
+            }
+        }
+        
+        @media only screen and (min-width:992px) {
+            nav {
+                width: 100%;
+                height: 7%;
+                background-color: rgba(12, 51, 136, 0.8);
+                font-size: 1.5vh;
+                color: white;
+            }
+            nav ul {
+                padding: 0;
+                margin: 0 auto;
+                width: 100%;
+                list-style-type: none;
+            }
+            nav li {
+                display: inline;
+                float: left;
+                margin: 2vh;
+            }
+        }
+        /*麵包屑*/
+        
+        .breadcrumb {
+            padding: 0px;
+            margin-bottom: 20px;
+            list-style: none;
+            background-color: rgba(12, 51, 136, 0);
+            border-radius: 0px;
+        }
+        /*選單連結效果*/
+        
+        ul li a {
+            color: white;
+        }
+        /*標題圖片區*/
+        
+        .jumbotron {
+            background-image: url(../img/top.jpg);
+            background-size: cover;
+            height: 80vh;
+            color: white;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        @media only screen and (max-width:767px) {
+            .jumbotron {
+                background-image: url(../img/top-small.jpg);
+                background-size: cover;
+                height: 80vh;
+                color: white;
+                padding: 0px;
+                margin: 0px;
+            }
+        }
+        /*標題文字區*/
+        
+        .title1 {
+            padding-top: 35vh;
+            width: 100%;
+            margin: 0px auto;
+            text-align: center;
+        }
+        
+        @media only screen and (max-width:767px) {
+            .title1 {
+                padding-top: 15vh;
+                width: 100%;
+                margin: 0px auto;
+                text-align: center;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            .title1 {
+                padding-top: 20vh;
+                width: 100%;
+                margin: 0px auto;
+                text-align: center;
+            }
+        }
+        /*第1區標題圖片區文字區h1*/
+        
+        .title1 h1 {
+            text-align: center;
+            font-size: 8vh;
+            text-shadow: 0.5vh 0.5vh 2vh #4e4e4e;
+        }
+        /*第1區標題圖片區文字區h2*/
+        
+        .title1 h2 {
+            text-shadow: 0.5vh 0.5vh 1vh #4e4e4e;
+        }
+        /*第1區標題圖片區文字區p*/
+        
+        .title1 p {
+            text-shadow: 0.5vh 0.5vh 1vh #4e4e4e;
+        }
+        /*主要Section設定*/
+        
+        @media screen and (max-width: 767px) {
+            .mainsection {
+                background-color: #ececec;
+                padding: 0vh;
+                overflow: auto;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            .mainsection {
+                background-color: #ececec;
+                padding: 5vh;
+                overflow: auto;
+            }
+        }
+        
+        @media screen and (min-width:992px) {
+            .mainsection {
+                background-color: #ececec;
+                padding: 10vh;
+                overflow: auto;
+            }
+        }
+        /*中間Section設定*/
+        
+        @media screen and (max-width: 767px) {
+            .articalsection {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            .articalsection {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+        
+        @media screen and (min-width:992px) {
+            .articalsection {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+        /*左側Section設定*/
+        
+        .leftsection {
+            float: left;
+            padding: 2vh;
+        }
+        /*右側Section設定*/
+        
+        .rightsection {
+            float: left;
+            padding: 2vh;
+        }
+        /*單篇文章貼文設定*/
+        
+        .thumbnail {
+            width: 100%;
+            float: left;
+            background-color: white;
+            padding: 5vh;
+            margin-bottom: 30px;
+            overflow: auto;
+        }
+        /*單篇文章貼文圖片設定*/
+        
+        .thumbnail img {
+            width: 100%;
+        }
+        /*單篇文章貼文按鈕設定*/
+        
+        .button {
+            width: 80px;
+            height: 30px;
+            margin-top: 20px;
+            line-height: 25px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #0c3388;
+            color: white;
+            position: relative;
+            float: right;
+        }
+        /*單篇文章貼文連結設定*/
+        
+        .button a {
+            width: 80px;
+            height: 30px;
+            line-height: 25px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #0c3388;
+            color: white;
+            position: relative;
+            float: right;
+        }
+        /*單篇文章貼文連結滑鼠移過設定*/
+        
+        .button a:hover {
+            width: 80px;
+            height: 30px;
+            line-height: 25px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #ffffff;
+            border: 1px solid #0c3388;
+            color: #0c3388;
+            position: relative;
+            float: right;
+        }
+        /*點我報名區塊*/
+        
+        .tenth {
+            background-color: #0c3388;
+            width: 100%;
+            height: 35vh;
+            padding-top: 15vh;
+        }
+        /*點我報名按鈕*/
+        
+        .signup {
+            font-size: 16px;
+            margin: 0 auto;
+            width: 80%;
+            height: 50px;
+            padding-top: 10px;
+            color: white;
+            text-align: center;
+            border: 2px solid #FFFFFF;
+        }
+        /*社交軟體區塊*/
+        
+        .eleventh {
+            background-color: #0c3388;
+            width: 100%;
+            height: 20vh;
+        }
+        /*社交軟體圖片區塊*/
+        
+        .social {
+            margin: 0 auto;
+            width: 92px;
+        }
+        /*footer*/
+        
+        .twelfth {
+            background-color: #0c3388;
+            width: 100%;
+            height: 5vh;
+            margin: 0 auto;
+        }
+        /*footer文字*/
+        
+        .twelfth h6 {
+            color: white;
+            margin: 0 auto;
+            text-align: center
+        }
